@@ -2,6 +2,9 @@
 ## a brief demo of how pycharm magically handles your $PYTHONPATH for you
 
 - pycharm_only solution:  
-uses a generic helpers.py on level up from the solution file. PyCharm magically resolves this for us but running from the command line or even other IDEs like vscode will simply fail since the module cannot be found.
+uses a generic helpers.py on level up from the solution file. Pycharm magically resolves this because its default setting adds the project root to the PYTHONPATH. This can be seen by printing out the sys.path once in pycharm and comparing with the result of the same command when solution.py is run in vscode or from a terminal.
 
-## As to pytest see https://docs.pytest.org/en/7.1.x/explanation/pythonpath.html for explanation of imports during pytest.
+see: https://stackoverflow.com/questions/71594141/modulenotfounderror-happening-in-vscode-but-not-in-pycharm
+
+- works_everywhere  
+simply solves the puzzle in a python script. To demonstrate that this (non-root level) directory has been added to the PYTHONPATH (trivial though this is) a helper module is used to show that this import does work.

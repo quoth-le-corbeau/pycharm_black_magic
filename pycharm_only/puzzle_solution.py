@@ -1,15 +1,17 @@
 import sys
+
 print(f"{sys.path=}")
-"""
-sys.path=[
-'/home/lecorbeau/CodeProjects/pycharm_black_magic/pycharm_only', 
-'/home/lecorbeau/CodeProjects/pycharm_black_magic', 
-'/usr/lib/python311.zip', 
-'/usr/lib/python3.11', 
-'/usr/lib/python3.11/lib-dynload',
-'/home/lecorbeau/CodeProjects/pycharm_black_magic/venv/lib/python3.11/site-packages'
-]
-"""
+
+# run in pycharm
+# sys.path = [
+#     "/home/lecorbeau/CodeProjects/pycharm_black_magic/pycharm_only",
+#     "/home/lecorbeau/CodeProjects/pycharm_black_magic",  # LOOK WHAT PyCharm did!
+#     "/usr/lib/python311.zip",
+#     "/usr/lib/python3.11",
+#     "/usr/lib/python3.11/lib-dynload",
+#     "/home/lecorbeau/CodeProjects/pycharm_black_magic/venv/lib/python3.11/site-packages",
+# ]
+
 
 import pathlib
 import helpers
