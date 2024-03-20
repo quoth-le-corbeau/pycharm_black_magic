@@ -1,11 +1,7 @@
+import time
 import sys
 
 print(f"{sys.path=}")
-import time
-import pathlib
-
-import helpers
-
 # run in vscode:
 # sys_path = sys.path = [
 #     "/Users/andigorgoyle/PycharmProjects/pycharm_black_magic/works_everywhere",
@@ -15,6 +11,7 @@ import helpers
 #     "/Users/andigorgoyle/PycharmProjects/pycharm_black_magic/venv/lib/python3.10/site-packages",
 # ]
 
+import helpers
 
 def find_most_calories(file_name: str):
     return max(helpers.get_all_elf_calories(file_name=file_name))

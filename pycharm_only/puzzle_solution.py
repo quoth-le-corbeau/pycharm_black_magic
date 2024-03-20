@@ -1,19 +1,18 @@
+import pathlib
 import sys
 
 print(f"{sys.path=}")
 
 # run in pycharm
 # sys.path = [
-#     "/home/lecorbeau/CodeProjects/pycharm_black_magic/pycharm_only",
-#     "/home/lecorbeau/CodeProjects/pycharm_black_magic",  # LOOK WHAT PyCharm did!
-#     "/usr/lib/python311.zip",
-#     "/usr/lib/python3.11",
-#     "/usr/lib/python3.11/lib-dynload",
-#     "/home/lecorbeau/CodeProjects/pycharm_black_magic/venv/lib/python3.11/site-packages",
+#    "/Users/andigorgoyle/PycharmProjects/pycharm_black_magic/pycharm_only",
+#    "/Users/andigorgoyle/PycharmProjects/pycharm_black_magic", <- LOOK WHAT Pycharm did
+#    "/Library/Frameworks/Python.framework/Versions/3.10/lib/python310.zip",
+#    "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10",
+#    "/Library/Frameworks/Python.framework/Versions/3.10/lib/python3.10/lib-dynload",
+#    "/Users/andigorgoyle/PycharmProjects/pycharm_black_magic/venv/lib/python3.10/site-packages",
 # ]
 
-
-import pathlib
 import helpers
 
 

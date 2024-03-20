@@ -6,5 +6,7 @@ uses a generic helpers.py on level up from the solution file. Pycharm magically 
 
 see: https://stackoverflow.com/questions/71594141/modulenotfounderror-happening-in-vscode-but-not-in-pycharm
 
+for explanation although this solution does not seem to work
+
 - works_everywhere  
 simply solves the puzzle in a python script. To demonstrate that this (non-root level) directory has been added to the PYTHONPATH (trivial though this is) a helper module is used to show that this import does work.
