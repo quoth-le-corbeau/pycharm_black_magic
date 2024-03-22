@@ -1,0 +1,2 @@
+python -m pycharm_only/solution.py 
+/home/andrew/Development/Personal/pycharm_black_magic/venv/bin/python: Error while finding module specification for 'pycharm_only/solution.py' (ModuleNotFoundError: No module named 'pycharm_only/solution'). Try using 'pycharm_only/solution' instead of 'pycharm_only/solution.py' as the module name.
